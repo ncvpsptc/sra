@@ -4,6 +4,7 @@
 <title>NCVPS Student Research Alliance | About</title>
 <script src="../require.js"></script>
   <link rel="stylesheet" href="../css/style.css"></link>
+  <link rel="stylesheet" href="style.css"></link>
 </head>
 <body>
 <div id="nav">
@@ -24,8 +25,23 @@
 <div id="essays"></div>
   <script src="../js/dropshadow.js"></script>
   <script>
-  var data = require('../data.json');
+  var data = JSON.parse(require('../data.json'));
+  function render(index) {
+  var card = document.createElement('div');
+    card.setAttribute('class','card');
+    var essay = data.Essays[index];
+    var title = document.createElement('H4');
+    title.innerHTML = essay.title;
+    card.appendChild(title);
+    var author = document.createElement('P');
+    author.setAttribute('class','author');
+    if(essay.author) {
+      author.innerHTML = "by " + essay.author;
+    } else {
+      author.innerHTML = "by Unknown";
+    }
   
+  }
   
   </script>
 </body>
