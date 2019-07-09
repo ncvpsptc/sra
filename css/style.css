@@ -18,7 +18,6 @@ text-align:center;
     #nav{
     background-color: darkblue;
       text-align: center;
-        height: 20px;
     }
     #nav > a:hover {
     background-color: blue;
