@@ -1,3 +1,19 @@
+button {
+    margin:0 auto;
+    display:block;
+    background-color: gray;
+    border: none;
+    padding: 10px;
+
+}
+button:hover {
+background-color: darkgray;
+}
+
+
+
+
+
 .author, .bio, .modal {
 text-align: center;
 }
