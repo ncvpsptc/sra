@@ -7,6 +7,9 @@ html, body
 h1 {
 text-align:center;
 }
+img {
+height: inherit;
+}
 #nav > a {
     color: white;
     padding: 0% 0% 0% 0%;
