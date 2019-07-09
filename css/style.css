@@ -1,0 +1,16 @@
+h1 {
+text-align:center;
+}
+#nav > a {
+    color: white;
+    padding: 0% 10% 0% 10%;
+      transition-duration: 0.4s;
+    }
+    #nav{
+    background-color: darkblue;
+      text-align: center;
+    }
+    #nav > a:hover {
+    background-color: blue;
+    border-radius: 8px;
+    }
