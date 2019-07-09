@@ -9,6 +9,7 @@ text-align:center;
 }
 
 #nav > a {
+    display:block;
     color: white;
     width: 33%;
     padding: 0% auto;
