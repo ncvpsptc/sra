@@ -38,7 +38,8 @@ margin: 30px;
     padding: 5% auto;
       transition-duration: 0.4s;
     background-color: green;
-    margin: 10px 0px;
+    margin: 10px 0px 10px 0px;
+    height: auto;
     }
 
 
