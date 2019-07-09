@@ -11,6 +11,7 @@ text-align:center;
 #nav > a {
     color: white;
     width: 33%;
+    padding: 0% 10%;
       transition-duration: 0.4s;
     }
 
