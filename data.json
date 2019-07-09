@@ -3,7 +3,15 @@
 {
 "title":"Testing",
 "abstract":"This is not an actual essay. It is a test for the system",
-"document":"https://docs.google.com/document/d/14NdoCKAC8dDEj3kdjTfoFVlZpnzDBZWvBFYdqKS4cP0/preview"
+"document":"https://docs.google.com/document/d/14NdoCKAC8dDEj3kdjTfoFVlZpnzDBZWvBFYdqKS4cP0/preview",
+"author":"Person McPerson"
 }
-]
+],
+"Authors": {
+"Person McPerson": {
+"img":"not_pictured.PNG",
+"bio":"Person McPerson is a person just like you!"
+}
+
+}
 }
