@@ -33,7 +33,7 @@ margin: 30px;
         top: 0px;
         left: 0px;
         width: 100%;
-        
+        z-index: -1;
     }
 #nav > a {
     display:inline-block;
