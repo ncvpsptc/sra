@@ -8,9 +8,14 @@ h1 {
 text-align:center;
 }
 #nav > a {
+    float: right;
     color: white;
     padding: 0% 10% 0% 10%;
+    width: 16%;
       transition-duration: 0.4s;
+    }
+#nav > a.logo {
+    float: left;
     }
     #nav{
     background-color: darkblue;
