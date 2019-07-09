@@ -89,7 +89,28 @@ window.onclick = function(event) {
     } else {
       author.innerHTML = "by Unknown";
     }
-  
+    card.appendChild(author);
+    var abstract = document.createElement('P');
+    abstract.innerHTML = essay.abstract;
+    card.appendChild(abstract);
+    var doc = document.createElement('IFRAME');
+    doc.src = essay.document;
+    doc.style.width = '100%';
+    doc.style.height = '100%';
+    doc.style.display = 'none';
+    doc.setAttribute('id','doc'+index);
+    var docbtn = document.createElement('BUTTON');
+    docbtn.innerHTML = "Open Document";
+    docbtn.setAttribute('id','btn'+index);
+    var alternate = 'document.getElementById("doc'+index+'").style.display="none";document.getElementById("btnc'+index+'").style.display="none";document.getElementById("btn'+index+'").style.display="block";';
+    docbtn.setAttribute('onclick','document.getElementById("doc'+index+'").style.display="block";document.getElementById("btnc'+index+'").style.display="block";document.getElementById("btn'+index+'").style.display="none";');
+    var docbtn2 = document.createElement('BUTTON');
+    docbtn2.innerHTML = "Close Document";
+    docbtn2.setAttribute('id','btnc'+index);
+    docbtn2.setAttribute('onclick',alternate);
+    docbtn2.style.display = 'none';
+    card.append(docbtn,docbtn2,doc);
+    document.getElementById('essays').appendChild(card);
   }
   
   </script>
