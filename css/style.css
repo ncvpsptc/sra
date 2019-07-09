@@ -10,7 +10,6 @@ text-align:center;
 
 #nav > a {
     color: white;
-    padding: 0% 0% 0% 0%;
     width: 33%;
       transition-duration: 0.4s;
     }
