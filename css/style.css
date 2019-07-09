@@ -26,19 +26,21 @@ margin: 30px;
     background-color: lime;
     height: 100%;
 }
+    #nav{
+    background-color: darkgreen;
+      text-align: center;
+    }
 #nav > a {
     display:inline-block;
     color: white;
     width: 33%;
     padding: 5% auto;
       transition-duration: 0.4s;
+    background-color: green;
     }
 
 
-    #nav{
-    background-color: darkblue;
-      text-align: center;
-    }
+
     #nav > a:hover {
-    background-color: blue;
+    background-color: darkgreen;
     }
