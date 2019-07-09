@@ -7,7 +7,12 @@ html, body
 h1 {
 text-align:center;
 }
-
+.card {
+margin: 30px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
 #nav > a {
     display:inline-block;
     color: white;
