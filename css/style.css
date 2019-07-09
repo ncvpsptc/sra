@@ -30,6 +30,8 @@ margin: 30px;
     background-color: darkgreen;
       text-align: center;
         position: fixed;
+        top: 0px;
+        left: 0px;
     }
 #nav > a {
     display:inline-block;
