@@ -29,17 +29,15 @@ margin: 30px;
     #nav{
     background-color: darkgreen;
       text-align: center;
-        height: 10%;
     }
 #nav > a {
     display:inline-block;
     color: white;
     width: 33%;
-    padding: 5% auto;
+    padding: 10% auto;
       transition-duration: 0.4s;
     background-color: green;
     margin: 10px 0px 10px 0px;
-    height: 80%;
     }
 
 
