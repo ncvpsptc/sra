@@ -32,6 +32,8 @@ margin: 30px;
         position: fixed;
         top: 0px;
         left: 0px;
+        width: 100%;
+        
     }
 #nav > a {
     display:inline-block;
