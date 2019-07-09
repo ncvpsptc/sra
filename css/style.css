@@ -34,6 +34,8 @@ margin: 30px;
         left: 0px;
         width: 100%;
         z-index: -1;
+        transform: translateZ(0);
+        -webkit-transform: translateZ(0);
     }
 #nav > a {
     display:inline-block;
