@@ -10,7 +10,7 @@ text-align:center;
 #nav > a {
     float: right;
     color: white;
-    padding: 0% 10% 0% 10%;
+    padding: 0% 0% 0% 0%;
     width: 16%;
       transition-duration: 0.4s;
     }
