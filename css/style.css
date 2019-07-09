@@ -12,7 +12,7 @@ text-align:center;
     display:inline-block;
     color: white;
     width: 33%;
-    padding: 0% auto;
+    padding: 3% auto;
       transition-duration: 0.4s;
     }
 
@@ -23,5 +23,4 @@ text-align:center;
     }
     #nav > a:hover {
     background-color: blue;
-    border-radius: 8px;
     }
