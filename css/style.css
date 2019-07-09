@@ -29,6 +29,7 @@ margin: 30px;
     #nav{
     background-color: darkgreen;
       text-align: center;
+        position: fixed;
     }
 #nav > a {
     display:inline-block;
