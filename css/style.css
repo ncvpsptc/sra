@@ -7,21 +7,15 @@ html, body
 h1 {
 text-align:center;
 }
-img {
-height: 20px;
-}
+
 #nav > a {
     color: white;
     padding: 0% 0% 0% 0%;
-    width: 16%;
+    width: 33%;
       transition-duration: 0.4s;
     }
-.navigation {
-float: right;
-}
-#nav > a.logo {
-    float: left;
-    }
+
+
     #nav{
     background-color: darkblue;
       text-align: center;
