@@ -36,11 +36,13 @@ margin: 30px;
         z-index: 100;
         transform: translateZ(0);
         -webkit-transform: translateZ(0);
+          display: flex;
+  flex-wrap: wrap;
     }
 #nav > a {
     display:inline-block;
     color: white;
-    width: 33%;
+    flex-grow: 1;
     padding: 10px auto;
       transition-duration: 0.4s;
     background-color: green;
