@@ -16,7 +16,18 @@
 "Person McPerson": {
 "img":"not_pictured.PNG",
 "bio":"Person McPerson is a person just like you!"
+},
+"Meetings": {
+"Summer 2019": [
+{
+"time":"7/8/2019 @ 7:00 PM",
+"description":"Summer Kickoff Meeting; present research project overviews, learn about student positions, and plan next meeting"
+},
+{
+"time":"8/5/2019 @ 7:00 PM",
+"description":"2nd meeting for Summer 2019; sharing and organizing research as students prepare to write their research papers"
 }
-
+]
+}
 }
 }

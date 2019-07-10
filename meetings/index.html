@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NCVPS Student Research Alliance | Meetings</title>
+<script src="../require.js"></script>
+  <link rel="stylesheet" href="../css/style.css"></link>
+  <link rel="stylesheet" href="style.css"></link>
+<style>
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+  .collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+</style>
+</head>
+<body>
+<div id="nav">
+
+<a href="https://ncvpsptc.github.io/sra">Home</a>
+<a href="https://ncvpsptc.github.io/sra/about">About</a>
+<a href="https://ncvpsptc.github.io/sra/essays">Essays</a>
+<a href="https://ncvpsptc.github.io/sra/meetings">Meetings</a>
+</div>
+  <div class='header'>
+<h1>Meetings</h1>
+  </div>
+  <div class='card'>
+    <h4>Meetings</h4>
+<p>Below, you can find meeting times for the Student Research Alliance.</p>
+
+  </div>
+  <div class='card' id="meetings">
+  
+  </div>
+  
+  <script>
+  var data = require('../data.json');
+  
+    function initCollapsibles() {
+    var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+    }
+    function generateCollapsibles() {
+    for(z in data.Meetings) {
+      var btn = document.createElement("BUTTON");
+      btn.setAttribute('class','collapsible');
+      btn.innerHTML = z;
+      document.getElementById('meetings').appendChild(btn);
+    var length = data.Meetings[z].length;
+      var container = document.createElement("DIV");
+      container.setAttribute('class','content');
+      var list = document.createElement("UL");
+      container.appendChild(list);
+      for(var a=0; a<length; a++) {
+      var item = document.createElement("LI");
+        item.innerHTML = data.Meetings[z][a].time + " - " + data.Meetings[z][a].description;
+        list.appendChild(item);
+      }
+      document.getElementById('meetings').appendChild(container);
+    }
+    
+    }
+    
+    generateCollapsibles();
+    initCollapsibles();
+  </script>
+  <script src="../js/dropshadow.js"></script>
+</body>
+
+</html>
