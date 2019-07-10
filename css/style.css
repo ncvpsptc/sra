@@ -19,7 +19,7 @@ text-align:center;
     background-color: #E8E8E8;
 }
 .footer > div {
-    flex-grow:1;
+    flex-shrink:1;
     display: inline-block;
     margin: 20px;
 
