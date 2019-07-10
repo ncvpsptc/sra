@@ -14,6 +14,18 @@ position: absolute;
 h1, h4 {
 text-align:center;
 }
+.footer {
+    display: flex;
+    background-color: #E8E8E8;
+}
+.footer > div {
+    width: 100px;
+    flex-grow:1;
+    display: inline-block;
+    margin: 20px;
+
+}
+
 .card {
 margin: 30px;
     padding: 30px;
