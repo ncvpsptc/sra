@@ -74,6 +74,7 @@ for (i = 0; i < coll.length; i++) {
       document.getElementById('meetings').appendChild(btn);
     var length = data.Meetings[z].length;
       var container = document.createElement("DIV");
+      container.style.display = 'none';
       container.setAttribute('class','content');
       var list = document.createElement("UL");
       container.appendChild(list);
