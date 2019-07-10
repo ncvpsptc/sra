@@ -48,7 +48,7 @@
   </div>
   
   <script>
-  var data = require('../data.json');
+  var data = JSON.parse(require('../data.json'));
   
     function initCollapsibles() {
     var coll = document.getElementsByClassName("collapsible");
