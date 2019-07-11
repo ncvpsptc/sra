@@ -35,11 +35,11 @@ margin: 30px;
 }
 .header {
   position: relative;
-    background-color: lime;
+    background-color: #0099ff;
     height: 100%;
 }
     #nav{
-    background-color: darkgreen;
+    background-color: #005c99;
       text-align: center;
         position: fixed;
         top: 0px;
@@ -57,7 +57,7 @@ margin: 30px;
     flex-grow: 1;
     padding: 10px auto;
       transition-duration: 0.4s;
-    background-color: green;
+    background-color:  #0099ff;
     margin: 10px 3px 10px 3px;
     border-radius: 4px;
     text-decoration: none;
