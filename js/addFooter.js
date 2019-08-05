@@ -8,9 +8,9 @@ document.body.innerHTML += `<div class="footer">
     </div>
         <div>
       <p><strong>Program Leadership</strong></p>
-      <p>Herman Hall - Instructional Leader</p>
-      <p>Gracie Blackburn - Student President and Founder</p>
-      <p>Austin Stitz - Director of Technology</p>
-      <p>Jazmin Vega-Gomez - Director of Marketing</p>
+      <p>Mr. Hall - Instructional Leader</p>
+      <p>Gracie B. - Student President and Founder</p>
+      <p>Austin S.- Director of Technology</p>
+      <p>Jazmin V.G. - Director of Marketing</p>
     </div>
   </div>`;
